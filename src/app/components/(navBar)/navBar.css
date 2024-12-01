@@ -1,0 +1,13 @@
+/* NAVBAR */
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: var(--c-dark);
+}
+
+.navbar-nav .nav-link:active {
+  color: (var(--c-brand));
+}

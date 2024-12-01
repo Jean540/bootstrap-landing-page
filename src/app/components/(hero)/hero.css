@@ -1,0 +1,8 @@
+#hero {
+  background: linear-gradient(
+      rgba(var(--c-brand-rgb), 0.5),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../../../../public/images/hero-1.jpg);
+  background-size: cover;
+}
