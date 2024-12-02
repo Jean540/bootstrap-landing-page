@@ -1,0 +1,31 @@
+.image-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-zoom-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-zoom-wrapper img {
+  transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+  transform: scale(1.1);
+}
+
+.portfolio-item .iconBox {
+  background-color: var(--c-brand);
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.portfolio-item:hover .iconBox {
+  opacity: 1;
+  top: 50%;
+}

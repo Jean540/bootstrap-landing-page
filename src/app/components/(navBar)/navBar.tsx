@@ -6,7 +6,7 @@ export const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <Image src={DarkLogo} alt="Website logo" />
+          <img src="/images/logo-dark.svg" alt="Website logo" />
         </a>
         <button
           className="navbar-toggler"
