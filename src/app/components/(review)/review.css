@@ -1,0 +1,19 @@
+.review small {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--c-brand);
+}
+
+.review-head {
+  position: relative;
+}
+
+.review-head::after {
+  content: "";
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: -14px;
+  background-color: white;
+  transform: rotate(45deg);
+}

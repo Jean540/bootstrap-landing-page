@@ -7,7 +7,11 @@ export const Portfolio = () => {
     <section id="portfolio" className="section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-12 text-center">
+          <div
+            className="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="650"
+          >
             <div className="section-title">
               <h1 className="display-4 fw-semibold">Our Portfolio</h1>
               <div className="line"></div>
@@ -26,12 +30,12 @@ export const Portfolio = () => {
           }}
         >
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down" data-aos-delay="150">
               <div className="portfolio-item image-zoom mt-4">
                 <div className="image-zoom-wrapper">
-                  <img src="/images/project-6.jpg" className="" />
+                  <img src="/images/project-1.jpg" className="" />
                   <a
-                    href="/images/project-6.jpg"
+                    href="/images/project-1.jpg"
                     className="iconBox"
                     data-fancybox="gallery"
                   >
@@ -39,8 +43,6 @@ export const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
               <div className="portfolio-item image-zoom mt-4 ">
                 <div className="image-zoom-wrapper">
                   <img src="/images/project-2.jpg" />
@@ -54,7 +56,7 @@ export const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down" data-aos-delay="250">
               <div className="portfolio-item image-zoom mt-4">
                 <div className="image-zoom-wrapper">
                   <img src="/images/project-3.jpg" />
@@ -67,8 +69,6 @@ export const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
               <div className="portfolio-item image-zoom mt-4">
                 <div className="image-zoom-wrapper">
                   <img src="/images/project-4.jpg" />
@@ -82,7 +82,7 @@ export const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-down" data-aos-delay="350">
               <div className="portfolio-item image-zoom mt-4">
                 <div className="image-zoom-wrapper">
                   <img src="/images/project-5.jpg" />
@@ -95,13 +95,11 @@ export const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
               <div className="portfolio-item image-zoom mt-4">
                 <div className="image-zoom-wrapper">
-                  <img src="/images/project-1.jpg" />
+                  <img src="/images/project-6.jpg" />
                   <a
-                    href="/images/project-1.jpg"
+                    href="/images/project-6.jpg"
                     className="iconBox"
                     data-fancybox="gallery"
                   >

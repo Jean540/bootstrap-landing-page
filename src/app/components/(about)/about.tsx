@@ -8,7 +8,11 @@ export const About = () => {
     <section id="about" className="section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-12 text-center">
+          <div
+            className="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
             <div className="section-title">
               <h1 className="display-4 fw-semibold">About us</h1>
               <div className="line"></div>
@@ -20,10 +24,10 @@ export const About = () => {
           </div>
         </div>
         <div className="row justify-content-between align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6" data-aos="fade-down" data-aos-delay="50">
             <Image src={AboutImg} alt="About Image" />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5" data-aos="fade-down" data-aos-delay="150">
             <h1 className="">About Elixir</h1>
             <p className="mt-3 mb-4">
               Lorem, ipsum dolor sit amet consectetur adipisicing.
